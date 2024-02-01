@@ -30,7 +30,7 @@ const SideBarNav = () => {
 
     const [activeIndex , setActiveIndex] = useState()
   return (
-    <div className='h-full bg-white border-r overflow-y-auto shadow-md flex flex-col'>
+    <div className='h-full bg-white border-r overflow-y-auto shadow-md flex flex-col '>
       
         <div className='p-5 border-b'>
             <NavLink to={'/'}>

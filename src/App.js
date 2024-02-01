@@ -44,7 +44,7 @@ export const router = createBrowserRouter([
 
 function App() {
   return <div>
-    <div className='h-full w-64 flex-col fixed inset-y-0 z-50'>
+    <div className='h-full w-30 flex-col fixed inset-y-0 z-50 md:w-64'>
         <SideBarNav />
       </div>
       <div className='inset-x-0 bg-white z-1'>
